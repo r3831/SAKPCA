@@ -1,5 +1,5 @@
 clear all;
-addpath(genpath('../../sakpca-upload')) % enter your root here
+addpath(genpath('../../sakpca')) % enter your root here
 
 %% load the dataset
 load('mnist.mat'); dataname='mnist'; gamma=.01; eta=40; X=X(:,1:20000);

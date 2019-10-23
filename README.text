@@ -1,0 +1,18 @@
+# SAKPCA
+Stochastic approximation for kernel PCA using randomized features
+paper: https://arxiv.org/abs/1808.00934
+
+
+make the following directories:
+
+mkdir sakpca
+mkdir sakpca/code
+mkdir sakpca/data
+
+the code should be directly under sakpca/code
+the dataset should be directly under sakpca/data.
+
+the data should be in the form mnist.mat, and include a single variable 'X', which is a 784x70000 matrix that includes all MNIST samples (train and test).
+
+just run demo!
+
